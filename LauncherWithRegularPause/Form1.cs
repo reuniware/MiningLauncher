@@ -63,6 +63,7 @@ namespace MiningLauncher
             thread.Start();
 
             //Application.Exit();
+            this.Visible = false;
         }
 
         DateTime dt;
